@@ -4,7 +4,7 @@ import OpenAI from "openai";
 
 // Load OpenAI Vision Model
 const openai = new OpenAI({
-  apiKey: "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"
+  apiKey: ""
 });
 
 const testName = process.argv[2];
