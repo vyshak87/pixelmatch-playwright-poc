@@ -1,0 +1,579 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e8]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: https://sourcecad.com
+      - generic [ref=e16]:
+        - img:
+          - img [ref=e17]
+        - list [ref=e20]:
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "All Courses" [ref=e22]:
+              - /url: https://sourcecad.com/courses/
+              - generic [ref=e23]: All Courses
+              - img [ref=e25]
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "Software and Topics" [ref=e31]:
+                  - /url: ""
+                  - generic [ref=e33]: Software and Topics
+                - list [ref=e34]:
+                  - listitem [ref=e35]:
+                    - link "AutoCAD" [ref=e36]:
+                      - /url: https://sourcecad.com/autocad-courses/
+                      - generic [ref=e38]: AutoCAD
+                  - listitem [ref=e39]:
+                    - link "AutoCAD Electrical" [ref=e40]:
+                      - /url: https://sourcecad.com/autocad-electrical-courses/
+                      - generic [ref=e42]: AutoCAD Electrical
+                  - listitem [ref=e43]:
+                    - link "Revit" [ref=e44]:
+                      - /url: https://sourcecad.com/revit-courses/
+                      - generic [ref=e46]: Revit
+                  - listitem [ref=e47]:
+                    - link "Civil 3D" [ref=e48]:
+                      - /url: https://sourcecad.com/civil-3d-courses/
+                      - generic [ref=e50]: Civil 3D
+                  - listitem [ref=e51]:
+                    - link "SolidWorks" [ref=e52]:
+                      - /url: https://sourcecad.com/solidworks-courses/
+                      - generic [ref=e54]: SolidWorks
+                  - listitem [ref=e55]:
+                    - link "Fusion" [ref=e56]:
+                      - /url: https://sourcecad.com/fusion-360-courses/
+                      - generic [ref=e58]: Fusion
+                  - listitem [ref=e59]:
+                    - link "Sketchup" [ref=e60]:
+                      - /url: https://sourcecad.com/sketchup-courses/
+                      - generic [ref=e62]: Sketchup
+                  - listitem [ref=e63]:
+                    - link "Robots Structure" [ref=e64]:
+                      - /url: https://sourcecad.com/robots-structural-analysis-courses/
+                      - generic [ref=e66]: Robots Structure
+              - listitem [ref=e67]:
+                - link "Autodesk Inventor" [ref=e68]:
+                  - /url: https://sourcecad.com/inventor-courses/
+                  - generic [ref=e71]: Autodesk Inventor
+                - list [ref=e72]:
+                  - listitem [ref=e73]:
+                    - link "Dynamo" [ref=e74]:
+                      - /url: https://sourcecad.com/courses/the-complete-dynamo-course
+                      - generic [ref=e76]: Dynamo
+                  - listitem [ref=e77]:
+                    - link "AutoCAD Architecture" [ref=e78]:
+                      - /url: https://sourcecad.com/autocad-architecture-courses/
+                      - generic [ref=e80]: AutoCAD Architecture
+                  - listitem [ref=e81]:
+                    - link "GD&T" [ref=e82]:
+                      - /url: https://sourcecad.com/gdt-courses/
+                      - generic [ref=e84]: GD&T
+                  - listitem [ref=e85]:
+                    - link "Plant 3D" [ref=e86]:
+                      - /url: https://sourcecad.com/plant-3d-courses/
+                      - generic [ref=e88]: Plant 3D
+                  - listitem [ref=e89]:
+                    - link "3D Printing" [ref=e90]:
+                      - /url: https://sourcecad.com/3d-printing-courses/
+                      - generic [ref=e92]: 3D Printing
+                  - listitem [ref=e93]:
+                    - link "DFM" [ref=e94]:
+                      - /url: https://sourcecad.com/dfm-courses/
+                      - generic [ref=e96]: DFM
+                  - listitem [ref=e97]:
+                    - link "All Courses" [ref=e98]:
+                      - /url: https://sourcecad.com/courses/
+                      - generic [ref=e99]: All Courses
+              - listitem [ref=e100]:
+                - link "Collections" [ref=e101]:
+                  - /url: ""
+                  - generic [ref=e103]: Collections
+                - list [ref=e104]:
+                  - listitem [ref=e105]:
+                    - link "Certification Prep" [ref=e106]:
+                      - /url: https://sourcecad.com/certification-prep-courses/
+                      - generic [ref=e108]: Certification Prep
+                  - listitem [ref=e109]:
+                    - link "Architecture" [ref=e110]:
+                      - /url: https://sourcecad.com/architecture-courses/
+                      - generic [ref=e112]: Architecture
+                  - listitem [ref=e113]:
+                    - link "MEP" [ref=e114]:
+                      - /url: https://sourcecad.com/mep-courses/
+                      - generic [ref=e116]: MEP
+                  - listitem [ref=e117]:
+                    - link "Structural Engg" [ref=e118]:
+                      - /url: https://sourcecad.com/structural-engineering-courses/
+                      - generic [ref=e120]: Structural Engg
+                  - listitem [ref=e121]:
+                    - link "FEA" [ref=e122]:
+                      - /url: https://sourcecad.com/fea-courses/
+                      - generic [ref=e124]: FEA
+          - listitem [ref=e125] [cursor=pointer]:
+            - link "Free Courses" [ref=e126]:
+              - /url: https://sourcecad.com/free-courses/
+              - generic [ref=e127]: Free Courses
+          - listitem [ref=e128] [cursor=pointer]:
+            - link "Live Training" [ref=e129]:
+              - /url: https://sourcecad.com/live-training/
+              - generic [ref=e130]: Live Training
+          - listitem [ref=e131] [cursor=pointer]:
+            - link "Pricing" [ref=e132]:
+              - /url: https://sourcecad.com/pricing/
+              - generic [ref=e133]: Pricing
+          - listitem [ref=e134] [cursor=pointer]:
+            - link "Login" [ref=e135]:
+              - /url: https://sourcecad.com/log-in/
+              - generic [ref=e136]: Login
+          - listitem [ref=e137] [cursor=pointer]:
+            - link [ref=e138]:
+              - /url: ""
+              - img [ref=e140]
+      - link "Signup for free" [ref=e148] [cursor=pointer]:
+        - /url: https://sourcecad.com/sign-up/
+        - generic [ref=e150]: Signup for free
+  - generic [ref=e152]:
+    - generic [ref=e155]:
+      - list [ref=e156]:
+        - listitem [ref=e157]:
+          - link "Home" [ref=e158] [cursor=pointer]:
+            - /url: https://sourcecad.com/
+        - listitem [ref=e159]:
+          - img [ref=e160]
+        - listitem [ref=e163]:
+          - link "Blog" [ref=e164] [cursor=pointer]:
+            - /url: https://sourcecad.com/blog/
+        - listitem [ref=e165]:
+          - img [ref=e166]
+        - listitem [ref=e169]:
+          - link "AutoCAD" [ref=e170] [cursor=pointer]:
+            - /url: https://sourcecad.com/category/autocad/
+        - listitem [ref=e171]:
+          - img [ref=e172]
+        - listitem [ref=e175]:
+          - generic [ref=e176]: AutoCAD Dynamic Blocks, a complete tutorial
+      - heading "AutoCAD Dynamic Blocks, a complete tutorial" [level=1] [ref=e178]:
+        - strong [ref=e179]: AutoCAD Dynamic Blocks, a complete tutorial
+      - paragraph [ref=e181]:
+        - text: Updated on February 23, 2025 | By
+        - link "Carel Croukamp" [ref=e183] [cursor=pointer]:
+          - /url: https://sourcecad.com/author/carelcroukamp/
+        - text: "| Category"
+        - link "AutoCAD" [ref=e185] [cursor=pointer]:
+          - /url: https://sourcecad.com/category/autocad/
+        - text: "|"
+        - text: min reading time
+      - separator [ref=e187]
+      - generic [ref=e192]:
+        - img "acad lgo" [ref=e197]
+        - generic [ref=e199]:
+          - paragraph [ref=e201]:
+            - strong [ref=e202]: AutoCAD essentials for beginners free course
+          - paragraph [ref=e204]: Get AutoCAD essentials beginners course completely for free and get a certificate when you finish the course.
+          - link "Check the course" [ref=e206] [cursor=pointer]:
+            - /url: https://sourcecad.com/courses/autocad-essentials-course/
+            - generic [ref=e208]: Check the course
+          - paragraph [ref=e210]: No credit card required, lifetime access
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - paragraph [ref=e215]: Dynamic blocks in AutoCAD are like blocks on steroids.
+          - paragraph [ref=e216]:
+            - text: In a regular
+            - link "AutoCAD block" [ref=e217] [cursor=pointer]:
+              - /url: https://sourcecad.com/autocad-blocks-complete-tutorial/
+            - text: ", you can use one base point and maybe rotate or scale it and that will be almost all the flexibility it has to offer."
+          - paragraph [ref=e218]: But in a dynamic block, you can stretch it, change its shape, change it entirely to a different type and a lot more.
+          - paragraph [ref=e219]: As an example here is the dynamic block that we will learn to make in this article.
+        - img "gif0" [ref=e222]
+        - generic [ref=e223]:
+          - paragraph [ref=e224]: Essentially using the single dynamic block we will make the pipe diagram where the pipe length can be changed, the direction of flanges can be changed, T and elbow joints can be added anywhere and a lot more.
+          - paragraph [ref=e225]: The final block in our example will look like the following image, here it is made with just one single block used several times over in this drawing.
+        - img "end-block" [ref=e228]
+        - generic [ref=e229]:
+          - paragraph [ref=e230]: In this article, I will show you the step-by-step method of making the pipe-fitting dynamic block as shown above.
+          - paragraph [ref=e231]: Using this dynamic block you can make as many configurations of pipe fittings as you like.
+          - paragraph [ref=e232]: If you want a video of this tutorial then here it is, if however, you want the text tutorial then keep reading.
+        - iframe [ref=e235]:
+          
+        - generic [ref=e236]:
+          - paragraph [ref=e237]: So, let’s begin with the simple drawing that will make the building block of this pipe dynamic block.
+          - heading "Starting the dynamic block" [level=2] [ref=e238]:
+            - strong [ref=e239]: Starting the dynamic block
+          - paragraph [ref=e240]: I will start with the basic sketch of the different views of the pipe diagram that we want to make.
+          - paragraph [ref=e241]: As shown in the following drawing we will make the front and top view of the flange, then make the pipe and its T and elbow joints.
+        - img "1-1-1200x300" [ref=e244]
+        - generic [ref=e245]:
+          - paragraph [ref=e246]:
+            - text: Once we have these, we are ready to convert them into a real
+            - link "AutoCAD dynamic block." [ref=e247] [cursor=pointer]:
+              - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+          - paragraph [ref=e248]: There are several ways of doing this and I will use a simple method for this but before we do that let’s see what we want the block to look like in the end.
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - text: The pipe should be stretchable so that it's length can be changed.
+              - text: The front of the flange should be able to rotate so that we can fix it in any direction.
+            - listitem [ref=e251]: All these parts of this piping diagram should be made using one single dynamic block.
+            - listitem [ref=e252]:
+              - text: The
+              - strong [ref=e253]:
+                - link "centerline" [ref=e254] [cursor=pointer]:
+                  - /url: https://sourcecad.com/center-mark-and-centerline-tools-of-autocad/
+              - text: of all the block views should align with one another.
+            - listitem [ref=e255]: Keeping these conditions in mind we will make the dynamic block, so, let’s get started with the Block command.
+          - paragraph [ref=e256]: You can type B and press enter to start the block command or you can also click the “create” option on the block panel to start the command as shown in the following image.
+        - img "2-1 (1)" [ref=e259]
+        - generic [ref=e260]:
+          - paragraph [ref=e261]: Now the block Definition palette will open up.
+          - paragraph [ref=e262]: Select the name of the block from this palette in the Name field, I am using “Pipe block” as the name for this example.
+          - paragraph [ref=e263]: Then click the “Pick point” box and select the centre of the top view of the flange.
+          - paragraph [ref=e264]: Then click the “Select objects” option from the Block Definition palette and select all the objects from the drawing area and press enter.
+          - paragraph [ref=e265]: In the behaviour panel make sure “Allow exploding” is checked and “Annotative” as well as “Scale uniformly” options are not checked.
+          - paragraph [ref=e266]: Finally, click the “open in block editor” option on the lower left corner of the “Block definition” palette and click OK.
+          - paragraph [ref=e267]: Here are all these steps as shown in the following animated image.
+        - img "3 (4)" [ref=e270]
+        - generic [ref=e271]:
+          - paragraph [ref=e272]: The drawing will now open in the block editor and here you can add the dynamic properties to the block.
+          - paragraph [ref=e273]: We will start with the visibility settings in our dynamic block but before we do that, we need to make our drawings manageable by separating them into 5 groups.
+          - heading "Making groups from block drawings" [level=2] [ref=e274]:
+            - strong [ref=e275]: Making groups from block drawings
+          - paragraph [ref=e276]: We need to merge all of these separate pipe drawings into one using the visibility parameter and for that, we need to place all of these drawings on top of one another.
+          - paragraph [ref=e277]: This is problematic as this will just make the entire drawing very confusing like the following image.
+        - img "objects-overlap" [ref=e280]
+        - generic [ref=e281]:
+          - paragraph [ref=e282]:
+            - text: So, to fix this issue I will convert all of these separate
+            - link "drawings into groups" [ref=e283] [cursor=pointer]:
+              - /url: https://sourcecad.com/all-about-autocad-groups-complete-tutorial/
+            - text: so that all the separate views like Front view, Top view, Pipe, T joint and Elbow joint are easily selectable when working with block editing tools.
+          - paragraph [ref=e284]: Grouping will make selecting these objects easier and then we can select these objects as one unit rather than making a selection of the entire set of lines, circles and other geometries that make up these drawings.
+          - paragraph [ref=e285]: This grouping is a temporary arrangement and after converting everything into a dynamic block we can break these groups.
+        - generic [ref=e289]:
+          - link [ref=e292] [cursor=pointer]:
+            - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+          - generic [ref=e301]:
+            - paragraph [ref=e303]: 32 lessons| Intermediate Level
+            - heading "AutoCAD dynamic blocks, complete course" [level=4] [ref=e305]:
+              - link "AutoCAD dynamic blocks, complete course" [ref=e307] [cursor=pointer]:
+                - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+            - paragraph [ref=e309]: Learn everything about creating and modifying simple and advance dynamic blocks in AutoCAD.
+            - link "Check the course" [ref=e312] [cursor=pointer]:
+              - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+              - generic [ref=e314]: Check the course
+        - generic [ref=e315]:
+          - paragraph [ref=e316]: To start the group command type GROUP and press enter, then select the top view of the flange and press enter key.
+          - paragraph [ref=e317]: This will convert the top view of the flange into an unnamed group and if you select any object from this group the entire top view will be selected.
+          - paragraph [ref=e318]: Similarly, repeat the group command and convert the front view of the flange, pipe, T joint and elbow joint into separate unnamed groups.
+          - paragraph [ref=e319]: Once you are done converting all the separate drawings into separate groups place them on top of one another with the mid or centre point overlapping for all objects as shown in the following video.
+        - iframe [ref=e324]:
+          
+        - generic [ref=e325]:
+          - paragraph [ref=e326]: Now we are ready to add the visibility parameter to this set of groups.
+          - heading "Adding visibility parameter" [level=2] [ref=e327]:
+            - strong [ref=e328]: Adding visibility parameter
+          - paragraph [ref=e329]: In the Block Editor select the “Parameters” tab from the “Block authoring palettes” then click the visibility parameter and then click at any point close to our cluster of groups preferably at the top right corner as shown in the following image.
+        - paragraph [ref=e331]: If for any reason the block authoring palette is not visible, then type BAUTHORPALETTE and press enter key and the palette will show up.
+        - img "visibility" [ref=e334]
+        - generic [ref=e335]:
+          - paragraph [ref=e336]: Now you need to associate this parameter with an action.
+          - paragraph [ref=e337]: The action for the visibility parameter is not available on the Actions tab of the Block authoring palette and rather you will find it on the Visibility panel of the Block Editor tab as shown in the following image.
+        - img "9 (3)" [ref=e340]
+        - generic [ref=e341]:
+          - paragraph [ref=e342]: From the Visibility, panel click the “Visibility States” option and then select “VisibilityState0” from the list of visibility states and click the rename button.
+          - paragraph [ref=e343]: Rename this default visibility state to “Flange top”.
+          - paragraph [ref=e344]: Click the “New” button and add “Flange front”, “Pipe”, “T joint” and “Elbow joint” visibility states as shown in the following image.
+          - paragraph [ref=e345]: Click OK on the “Visibility states” panel when you are done adding all the visibility states.
+        - img "10 (3)" [ref=e348]
+        - generic [ref=e349]:
+          - paragraph [ref=e350]: Now it’s time to make this visibility states useful.
+          - paragraph [ref=e351]: Select the Flange top visibility state from the visibility states dropdown on the “Visibility” panel.
+          - paragraph [ref=e352]: Now click the “Make invisible” option from the Visibility panel and click on all the groups of objects that are not “Flange top” as shown in the following animated image.
+        - img "gif2" [ref=e355]
+        - generic [ref=e356]:
+          - paragraph [ref=e357]: Repeat this process for all the other visibility states.
+          - paragraph [ref=e358]: Essentially, as the next step change the visibility state to “Flange front” then click the make invisible option and click on all the groups of objects that are not “Flange front” and then do the same for “Pipe”, “T joint” and “Elbow joint” visibility states.
+          - paragraph [ref=e359]: After finishing it we need to clean our block by removing the groups that we created earlier as we no longer need them to select the objects as one unit.
+          - paragraph [ref=e360]: Also for the next set of parameters, we need our drawings objects as separate entities rather than as groups.
+          - heading "Cleaning up the dynamic block" [level=2] [ref=e361]:
+            - strong [ref=e362]: Cleaning up the dynamic block
+          - paragraph [ref=e363]:
+            - text: To remove the groups, type CLASSICGROUP on the
+            - link "command line" [ref=e364] [cursor=pointer]:
+              - /url: https://sourcecad.com/autocad-command-line-tips/
+            - text: and press enter.
+          - paragraph [ref=e365]: Now select the “Include Unnamed” check box and then all the unnamed groups that we created will show up in the list.
+          - paragraph [ref=e366]: Select the groups one by one and then click the “explode” button so that all the groups are removed.
+          - paragraph [ref=e367]: Follow the steps mentioned in the following image to remove these groups.
+        - img "12 (1)" [ref=e370]
+        - generic [ref=e371]:
+          - paragraph [ref=e372]: Once all the groups are removed click OK on the “Object Grouping” palette and now we have a clean dynamic block ready for the next step.
+          - heading "Adding Stretch property" [level=2] [ref=e373]:
+            - strong [ref=e374]: Adding Stretch property
+          - paragraph [ref=e375]: After the visibility parameter and action, we need to add the next property in the “pipe” drawing of the dynamic block.
+          - paragraph [ref=e376]: Essentially we want to add the stretch property to the pipe view of the block so that it can be stretched to whatever length we want in either direction.
+        - generic [ref=e380]:
+          - link [ref=e383] [cursor=pointer]:
+            - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+          - generic [ref=e392]:
+            - paragraph [ref=e394]: 32 lessons| Intermediate Level
+            - heading "AutoCAD dynamic blocks, complete course" [level=4] [ref=e396]:
+              - link "AutoCAD dynamic blocks, complete course" [ref=e398] [cursor=pointer]:
+                - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+            - paragraph [ref=e400]: Learn everything about creating and modifying simple and advance dynamic blocks in AutoCAD.
+            - link "Check the course" [ref=e403] [cursor=pointer]:
+              - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+              - generic [ref=e405]: Check the course
+        - generic [ref=e406]:
+          - paragraph [ref=e407]: To do this select the “Pipe” visibility state from the Visibility panel so that the pipe part of the dynamic block shows up.
+          - paragraph [ref=e408]: Select the “linear” parameter from the parameters tab of the block authoring palette in the block editor.
+          - paragraph [ref=e409]: Click on the endpoints of the purple centre line of the horizontal pipe and place the parameter above the drawing as shown in the following image.
+        - img "img" [ref=e412]
+        - generic [ref=e413]:
+          - paragraph [ref=e414]: Now select the Actions tab from the block authoring palette and select the stretch action.
+          - paragraph [ref=e415]: Click on the “distance1” action that looks like a dimension which we created in the previous step and then click on the left endpoint of the purple centerline.
+          - paragraph [ref=e416]: Now make a selection frame that starts at the bottom right corner of the pipe drawing and move it to the top left corner.
+          - paragraph [ref=e417]: Make sure you start the selection box slightly before the end point of the pipe drawing so that all the lines are not completely inside the box rather, they should intersect it as shown in the following animated image.
+          - paragraph [ref=e418]: Then select all the objects making the pipe drawing including the Distance 1 parameter.
+          - paragraph [ref=e419]: Now repeat the same steps but this time make sure you select the right-sided endpoint of the purple centerline and select a stretch frame that starts from the lower left corner and extends to the upper right corner.
+        - img "gg1" [ref=e422]
+        - generic [ref=e423]:
+          - paragraph [ref=e424]: And now our pipe is stretchable, and its length can be changed in both directions.
+          - heading "Creating rotation parameter" [level=2] [ref=e425]:
+            - strong [ref=e426]: Creating rotation parameter
+          - paragraph [ref=e427]: Now that we have a pipe that can be stretched to whatever length we want let’s look at creating the front view of the flange that can be rotated to any angle.
+          - paragraph [ref=e428]: For that start with the Parameters tab of the “Block authoring palettes” and select the rotation parameter.
+          - paragraph [ref=e429]: Now click at the midpoint of the vertical line of the flange and click on the right side at a 0-degree angle twice.
+          - paragraph [ref=e430]: This will add a rotation parameter that looks like the following image.
+        - img "rpm" [ref=e433]
+        - generic [ref=e434]:
+          - paragraph [ref=e435]: Now go to the “Actions” tab from the “Block authoring palettes” and select the Rotate action.
+          - paragraph [ref=e436]: Then click on the Angle1 parameter then select the entire set of objects that make the front view of the flange including the Angle1 parameter.
+          - paragraph [ref=e437]: Finally, we have a rotation parameter, and the front view of the flange can be rotated about the midpoint.
+          - paragraph [ref=e438]: With this, the dynamic block is now finished and we can test it now.
+          - paragraph [ref=e439]: So, click the “Close Block Editor” green check mark at the top right corner of the ribbon area and click “Save the changes to Pipe Block” in the next prompt.
+          - paragraph [ref=e440]: This will exit the Block editor environment and we are now in the drawing area with our dynamic block.
+          - heading "Testing the Dynamic Block" [level=2] [ref=e441]:
+            - strong [ref=e442]: Testing the Dynamic Block
+          - paragraph [ref=e443]: Now that we have the dynamic block fully prepared and ready for action let’s try it.
+          - paragraph [ref=e444]: Delete everything from the drawing area including any block that is available.
+          - paragraph [ref=e445]: Click the “Insert” option from the “Block” panel of the “Home” tab and then select the block that we just created and place it in the drawing area.
+          - paragraph [ref=e446]: Now select the block and then click the blue arrow that shows up on the top right corner and select the “Flange front” from the list.
+          - paragraph [ref=e447]:
+            - link "Make a copy" [ref=e448] [cursor=pointer]:
+              - /url: https://sourcecad.com/copy-paste-commands-autocad/
+            - text: of this block again and then change the visibility state of this dynamic block to “Pipe”.
+          - paragraph [ref=e449]: Now repeat this process of copying this block and selecting different visibility states to create the pipe drawing as shown in the following video.
+        - iframe [ref=e454]:
+          
+        - generic [ref=e455]:
+          - paragraph [ref=e456]: With that, we now have an intelligent drawing with dynamic blocks where we can change the pipe length, flange angle and other properties directly using the dynamic block feature.
+          - heading "Making AutoCAD dynamic block with Attributes" [level=2] [ref=e457]:
+            - strong [ref=e458]: Making AutoCAD dynamic block with Attributes
+          - paragraph [ref=e459]:
+            - text: So far we have a functional dynamic block which is already working great but now we will make it more useful by adding
+            - link "attributes" [ref=e460] [cursor=pointer]:
+              - /url: https://sourcecad.com/all-about-autocad-block-attributes/
+            - text: to the different views of the dynamic block.
+          - paragraph [ref=e461]: For that, we need to edit the dynamic block.
+          - paragraph [ref=e462]: Select any view of the dynamic block from the drawing area then right-click and select “Block editor” from the context menu and now we are back in the block editor where we can edit the dynamic block.
+          - paragraph [ref=e463]: In this case, we will add tags for the pipe views using attributes so that they can be easily identified.
+          - paragraph [ref=e464]: Essentially we will use P1, P2, P3 etc for pipes and similarly T1, T2, T3 etc for T joint and so on.
+          - heading "Adding Attributes" [level=2] [ref=e465]:
+            - strong [ref=e466]: Adding Attributes
+          - paragraph [ref=e467]: From the visibility panel of the block editor environment select the “Flange front” view as shown in the following image.
+        - img "flange" [ref=e470]
+        - generic [ref=e471]:
+          - paragraph [ref=e472]: Now only the Flange front view will show up in the block editor.
+          - paragraph [ref=e473]: Select the “Attribute Definition” option from the “Action Parameters” panel of the block editor tab as shown in the image above.
+          - paragraph [ref=e474]: The “Attribute Definition” window will now open up with several options. Uncheck all the boxes from the “mode” panel except the “Lock position” and then add the following values.
+        - generic [ref=e478]:
+          - link [ref=e481] [cursor=pointer]:
+            - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+          - generic [ref=e490]:
+            - paragraph [ref=e492]: 32 lessons| Intermediate Level
+            - heading "AutoCAD dynamic blocks, complete course" [level=4] [ref=e494]:
+              - link "AutoCAD dynamic blocks, complete course" [ref=e496] [cursor=pointer]:
+                - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+            - paragraph [ref=e498]: Learn everything about creating and modifying simple and advance dynamic blocks in AutoCAD.
+            - link "Check the course" [ref=e501] [cursor=pointer]:
+              - /url: https://sourcecad.com/courses/autocad-dynamic-blocks/
+              - generic [ref=e503]: Check the course
+        - generic [ref=e504]:
+          - paragraph [ref=e505]: "Tag: FLANGE"
+          - paragraph [ref=e506]: "Prompt: Enter flange identifier"
+          - paragraph [ref=e507]: Levale the “Default” section blank and set the text justification to “Left”, style to “Standard” and text height to the default value or a value that will make your text look normal in size when compared with the block.
+          - paragraph [ref=e508]: I am using 0.2 as the text height for this example, finally, your “Attribute Definition” window should look like the following image.
+        - img "Attribute-definition" [ref=e511]
+        - generic [ref=e512]:
+          - paragraph [ref=e513]: Now click OK to close the “Attribute Definition” window and click anywhere close to the block to add the attribute tag.
+          - paragraph [ref=e514]: We now have an attribute associated with our Flange front view of the dynamic block.
+          - paragraph [ref=e515]:
+            - text: You can repeat the process for other views of the dynamic block as well and
+            - link "create several attributes" [ref=e516] [cursor=pointer]:
+              - /url: https://sourcecad.com/all-about-autocad-block-attributes/
+            - text: associated with different views of the dynamic block.
+          - paragraph [ref=e517]: In my case I am adding the attributes to pipe, T joint and Elbow joint views of the dynamic block as well.
+          - paragraph [ref=e518]: After adding all the attributes to different views simply click the close block editor check mark on the Block editor tab and click to save the changes and return to the model space of the drawing.
+          - heading "Using and modifying attributes" [level=2] [ref=e519]:
+            - strong [ref=e520]: Using and modifying attributes
+          - paragraph [ref=e521]: Now that we have the dynamic block with attributes it’s time we use it in our drawing.
+          - paragraph [ref=e522]: If you’ve already used a dynamic block in your drawing without any attribute then you need to sync it first before the attributes can be used.
+          - paragraph [ref=e523]: To do that type ATTSYNC and press enter key.
+          - paragraph [ref=e524]: Now press enter key again and then select the block from the drawing that you want to sync.
+        - img "attsync-600x400" [ref=e527]
+        - generic [ref=e528]:
+          - paragraph [ref=e529]: In my case, I will select the Flange front view of the dynamic block and then press enter again.
+          - paragraph [ref=e530]: This will sync the Flange front view and now you can add an attribute on that view but you need to repeat the ATTSYNC command for all the other views as well where you have added attributes in the previous step.
+          - paragraph [ref=e531]: For my example, I am using the ATTSYNC command for Pipe, T joint, and Elbow joint as well.
+          - paragraph [ref=e532]: Now we can modify the attributes for all the views of the dynamic block separately.
+          - paragraph [ref=e533]: Select the block for which you want to modify the attribute and then right-click and select “Edit Attribute” from the context menu.
+        - img "flange-attribute" [ref=e536]
+        - generic [ref=e537]:
+          - paragraph [ref=e538]: In the “Enhanced Attribute Editor” add the value that you want, I am adding F1 for the first flange and then click OK.
+          - paragraph [ref=e539]: Repeat the process for all the other dynamic block views.
+          - paragraph [ref=e540]: After adding all the attributes my final dynamic block looks like this.
+        - img "Final-dynamic-block-1200x394" [ref=e543]
+        - generic [ref=e544]:
+          - heading "Summary" [level=2] [ref=e545]:
+            - strong [ref=e546]: Summary
+          - paragraph [ref=e547]: Dynamic blocks of AutoCAD are great for making an intelligent set of blocks that will skyrocket your productivity.
+          - paragraph [ref=e548]: So, whenever you feel like you are using several similar blocks try replacing them with one dynamic block.
+          - paragraph [ref=e549]: Do you use dynamic blocks in your drawings? Let me know in the comments below.
+      - separator [ref=e551]
+      - paragraph [ref=e553]:
+        - strong [ref=e554]: "Disclosure:"
+        - text: Our content is supported by readers like you. We might earn a commission from affiliated products you buy from links placed on our website without any extra cost to you. This does not influence our content recommendations or editorial process. Learn more about our
+        - link "affiliate process here" [ref=e555] [cursor=pointer]:
+          - /url: https://sourcecad.com/affiliate-disclosure/
+        - text: .
+      - generic [ref=e556]:
+        - generic [ref=e558]:
+          - link "Single Blog Post" [ref=e563] [cursor=pointer]:
+            - /url: https://sourcecad.com/author/carelcroukamp
+            - img "Single Blog Post" [ref=e564]
+          - generic [ref=e566]:
+            - paragraph [ref=e568]: About the Author
+            - paragraph [ref=e570]:
+              - link "Carel Croukamp" [ref=e572] [cursor=pointer]:
+                - /url: https://sourcecad.com/author/carelcroukamp
+        - paragraph [ref=e578]: Carel is a 3D Designer & Visualizer in the Tender Department assisting in the initial design of Water Treatment Plants. He has been a Draftsman since 2009 and can use AutoCAD, Cadworx, Plant 3D, Inventor, 3Ds Max and Blender to design, detail and visualize 3D Designs.
+      - paragraph [ref=e580]: Continue Learning...
+      - generic [ref=e581]:
+        - article [ref=e582]:
+          - link [ref=e583] [cursor=pointer]:
+            - /url: https://sourcecad.com/align-object-autocad/
+          - heading "Using the Align command in AutoCAD to align objects" [level=2] [ref=e591]:
+            - link "Using the Align command in AutoCAD to align objects" [ref=e593] [cursor=pointer]:
+              - /url: https://sourcecad.com/align-object-autocad/
+        - article [ref=e594]:
+          - link [ref=e595] [cursor=pointer]:
+            - /url: https://sourcecad.com/2d-from-3d-autocad-drawing/
+          - heading "How to make 2D from 3D AutoCAD drawing" [level=2] [ref=e603]:
+            - link "How to make 2D from 3D AutoCAD drawing" [ref=e605] [cursor=pointer]:
+              - /url: https://sourcecad.com/2d-from-3d-autocad-drawing/
+        - article [ref=e606]:
+          - link [ref=e607] [cursor=pointer]:
+            - /url: https://sourcecad.com/dimension-style-overrides-in-autocad/
+          - heading "How to create dimension style overrides in AutoCAD" [level=2] [ref=e615]:
+            - link "How to create dimension style overrides in AutoCAD" [ref=e617] [cursor=pointer]:
+              - /url: https://sourcecad.com/dimension-style-overrides-in-autocad/
+      - generic [ref=e619]:
+        - img "signup" [ref=e624]
+        - generic [ref=e626]:
+          - heading "Learn CAD and engineering tools for free" [level=3] [ref=e628]
+          - paragraph [ref=e630]: Get all the free courses and eBooks with lifetime access. Also, get a certificate when you finish the courses.
+          - link "Check free courses" [ref=e633] [cursor=pointer]:
+            - /url: https://sourcecad.com/free-courses/
+            - generic [ref=e635]: Check free courses
+    - complementary [ref=e640]:
+      - generic [ref=e645]:
+        - generic "lrn" [ref=e648]
+        - heading "Learn CAD and engineering tools for free" [level=3] [ref=e650]:
+          - text: Learn CAD and engineering
+          - generic [ref=e651]: tools for free
+        - paragraph [ref=e653]: Get all the free courses and eBooks with lifetime access. Also, get a certificate when you finish the courses.
+        - link "Check free courses" [ref=e655] [cursor=pointer]:
+          - /url: https://sourcecad.com/free-courses/
+          - generic [ref=e657]: Check free courses
+        - paragraph [ref=e659]: No credit card required
+  - contentinfo [ref=e665]:
+    - generic [ref=e673]:
+      - generic [ref=e675]:
+        - link [ref=e677] [cursor=pointer]:
+          - /url: https://sourcecad.com
+        - generic [ref=e681]:
+          - link [ref=e683] [cursor=pointer]:
+            - /url: https://youtube.com/@SourceCAD
+            - img [ref=e685]
+          - link [ref=e688] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/the-source-cad/
+            - img [ref=e690]
+          - link [ref=e693] [cursor=pointer]:
+            - /url: https://www.facebook.com/sourcecad/
+            - img [ref=e695]
+          - link [ref=e698] [cursor=pointer]:
+            - /url: https://twitter.com/SourceCAD
+            - img [ref=e700]
+        - paragraph [ref=e704]: © Copyright 2025 SourceCAD Learning, All Rights Reserved.
+      - generic [ref=e706]:
+        - paragraph [ref=e708]: about
+        - paragraph [ref=e710]:
+          - link "About us & contact" [ref=e711] [cursor=pointer]:
+            - /url: https://sourcecad.com/about-sourcecad/
+        - paragraph [ref=e713]:
+          - link "Jaiprakash Pandey" [ref=e714] [cursor=pointer]:
+            - /url: https://sourcecad.com/jaiprakash-pandey/
+        - paragraph [ref=e716]:
+          - link "Plans and pricing" [ref=e717] [cursor=pointer]:
+            - /url: https://sourcecad.com/pricing/
+        - paragraph [ref=e719]:
+          - link "Download eBooks" [ref=e720] [cursor=pointer]:
+            - /url: https://sourcecad.com/ebooks/
+        - paragraph [ref=e722]:
+          - link "Subscribe" [ref=e723] [cursor=pointer]:
+            - /url: https://mail.sourcecad.com/subscribe
+        - paragraph [ref=e725]:
+          - link "Blog" [ref=e726] [cursor=pointer]:
+            - /url: https://sourcecad.com/blog/
+      - generic [ref=e728]:
+        - paragraph [ref=e730]: Learn more
+        - paragraph [ref=e732]:
+          - link "Become affiliate" [ref=e733] [cursor=pointer]:
+            - /url: https://sourcecad.com/become-affiliate/
+        - paragraph [ref=e735]:
+          - link "Affiliate login" [ref=e736] [cursor=pointer]:
+            - /url: https://sourcecad.surecart.com/affiliates
+        - paragraph [ref=e738]:
+          - link "Schedule demo" [ref=e739] [cursor=pointer]:
+            - /url: https://calendar.app.google/75CCfGsjYnvckwrE8
+        - paragraph [ref=e741]:
+          - link "Become an author" [ref=e742] [cursor=pointer]:
+            - /url: https://sourcecad.com/become-author/
+        - paragraph [ref=e744]:
+          - link "Udemy courses" [ref=e745] [cursor=pointer]:
+            - /url: https://sourcecad.com/udemy-courses/
+        - paragraph [ref=e747]:
+          - link "Certificate verification" [ref=e748] [cursor=pointer]:
+            - /url: https://sourcecad.com/certificate-verification/
+      - generic [ref=e750]:
+        - paragraph [ref=e752]: company
+        - paragraph [ref=e754]:
+          - link "Terms of service" [ref=e755] [cursor=pointer]:
+            - /url: https://sourcecad.com/terms-of-service/
+        - paragraph [ref=e757]:
+          - link "Our team" [ref=e758] [cursor=pointer]:
+            - /url: https://sourcecad.com/team/
+        - paragraph [ref=e760]:
+          - link "Privacy policy" [ref=e761] [cursor=pointer]:
+            - /url: https://sourcecad.com/privacy-policy/
+        - paragraph [ref=e763]:
+          - link "Refund policy" [ref=e764] [cursor=pointer]:
+            - /url: https://sourcecad.com/refund-policy/
+        - paragraph [ref=e766]:
+          - link "Affiliate disclosure" [ref=e767] [cursor=pointer]:
+            - /url: https://sourcecad.com/affiliate-disclosure/
+        - paragraph [ref=e769]:
+          - link "Sitemap" [ref=e770] [cursor=pointer]:
+            - /url: https://sourcecad.com/sitemap_index.xml
+```

@@ -1,0 +1,7 @@
+{
+  "nonTechnicalSummary": "There are noticeable differences between the baseline and the actual images, particularly in the text color and any overlapping elements.",
+  "technicalAnalysis": "The text 'Test Mobile Web' has changed from black to orange, creating a significant color distinction. Overall, the differences are primarily due to color changes and potential misalignments in elements.",
+  "whatChanged": "Text color of 'Test Mobile Web' changed from black to orange.",
+  "recommendation": "Verify the design specifications to ensure color consistency. Adjust the text back to the original color if it is intended to remain black.",
+  "severity": "MEDIUM"
+}

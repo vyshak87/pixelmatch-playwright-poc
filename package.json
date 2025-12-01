@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "pixelmatch-playwright-poc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "node ./src/utils/report-generator.js",
+    "compare": "node ./src/utils/compare.js",
+    "ci:test": "npx playwright test --reporter=list && node ./src/utils/report-generator.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^6.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "openai": "^6.9.1",
+    "sharp": "^0.34.5"
+  }
+}
