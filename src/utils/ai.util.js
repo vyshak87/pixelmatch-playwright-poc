@@ -3,7 +3,7 @@ import sharp from "sharp";
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  apiKey: "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"
+  apiKey: ""
 });
 
 /**
