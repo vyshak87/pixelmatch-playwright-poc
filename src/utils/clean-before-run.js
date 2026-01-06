@@ -1,25 +1,30 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
 function cleanDir(dir) {
   if (fs.existsSync(dir)) {
-    fs.readdirSync(dir).forEach(file => {
-      fs.unlinkSync(path.join(dir, file));
-    });
-  }
-}
+    for (const entry of fs.readdirSync(dir)) {
+      const fullPath = path.join(dir, entry);
 
-async function globalSetup() {
-  cleanDir('actual');
-  cleanDir('diff');
-
-  if (fs.existsSync('reports/ai')) {
-    fs.readdirSync('reports/ai').forEach(file => {
-      fs.unlinkSync(path.join('reports/ai', file));
-    });
+      if (fs.lstatSync(fullPath).isDirectory()) {
+        fs.rmSync(fullPath, { recursive: true, force: true });
+      } else {
+        fs.unlinkSync(fullPath);
+      }
+    }
   }
 
-  console.log("Cleaned: actual/, diff/, reports/ai/");
+  // ✅ Always recreate folder
+  fs.mkdirSync(dir, { recursive: true });
 }
 
-export default globalSetup;
+export default async function globalSetup() {
+  cleanDir("actual");
+  cleanDir("diff");
+  cleanDir("reports/ai");
+
+  // ✅ Baseline must exist, but never cleaned
+  fs.mkdirSync("baseline", { recursive: true });
+
+  console.log("🧹 Visual folders prepared");
+}

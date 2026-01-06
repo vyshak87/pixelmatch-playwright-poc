@@ -1,7 +1,0 @@
-{
-  "nonTechnicalSummary": "There are visual differences between the baseline and actual images, primarily related to mismatched pixel areas.",
-  "technicalAnalysis": "The comparison highlights discrepancies in the rendering of specific elements. The mismatch pixels are concentrated in certain regions, indicating potential issues with the interface layout or content updates.",
-  "whatChanged": "The appearance of visual components such as buttons and text may differ in color or position compared to the original design. Specific pixel counts and positions of mismatches can indicate where these changes have occurred.",
-  "recommendation": "Review the differences noted in the mismatch pixels to determine if they are intentional updates or if they require adjustments to conform to the original design specifications.",
-  "severity": "MEDIUM"
-}

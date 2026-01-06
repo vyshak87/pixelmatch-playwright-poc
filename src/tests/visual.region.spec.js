@@ -1,50 +1,47 @@
 import { test, expect } from '@playwright/test';
-import fs from 'fs';
-import { pathsFor } from '../utils/paths.js';
+import { runVisualTest } from "../utils/visual-runner.util.js";
 
-test('Visual: Header element only (region test)', async ({ page }) => {
+
+test('Visual: Landing page multiple regions', async ({ page }, testInfo) => {
 
   await page.goto('https://playwright.dev');
 
-  const name = 'header-region';
-  const p = pathsFor(name);
+  const regions = [
+    {
+      name: 'header',
+      element: page.getByRole('img', { name: 'Browsers (Chromium, Firefox, WebKit)' })
+    },
+    {
+      name: 'hero-section',
+      element: page.locator('.hero__titless')
+    },
+    {
+      name: 'footer',
+      element: page.locator('h2', { hasText: 'Chosen by companies and open source projects' })
+    }
+  ];
 
-  // Ensure folders
-  fs.mkdirSync('actual', { recursive: true });
-  fs.mkdirSync('baseline', { recursive: true });
-  fs.mkdirSync('diff', { recursive: true });
+  const results = [];
 
-  // 1️⃣ SELECT REGION (HEADER)
-  const header = page.getByRole('img',{name:'Browsers (Chromium, Firefox, WebKit)'});   // <-- any element
-  await header.waitFor();
+  for (const region of regions) {
+    const result = await runVisualTest(
+      page,
+      `landing-${region.name}`,
+      {
+        browserName: testInfo.project.name,
+        element: region.element
+      }
+    );
 
-  // 2️⃣ CAPTURE ONLY THAT ELEMENT
-  await header.screenshot({ path: p.actual });
-
-  // 3️⃣ If baseline missing → create it
-  if (!fs.existsSync(p.baseline)) {
-    fs.copyFileSync(p.actual, p.baseline);
-    console.log('Baseline created for element region.');
-    return;
+    results.push({ region: region.name, result });
   }
 
-  // 4️⃣ Run pixelmatch comparison for this element only
-  const { execSync } = await import('child_process');
+  // 🔴 Fail test if ANY region fails
+  const failed = results.filter(r => !r.result.passed);
 
-  try {
-    execSync(`node ./src/utils/compare.js ${name} 0.1 0.0`, { stdio: 'inherit' });
-
-    // 5️⃣ Optional: AI enhancement
-    execSync(`node ./src/utils/ai-analyze.js ${name}`, { stdio: "inherit" });
-    execSync(`node ./src/utils/report-generator.js`, { stdio: "inherit" });
-
-    expect(true).toBe(true);
-
-  } catch (e) {
-    console.log('Comparison failed — running AI...');
-    execSync(`node ./src/utils/ai-analyze.js ${name}`, { stdio: "inherit" });
-    execSync(`node ./src/utils/report-generator.js`, { stdio: "inherit" });
-
-    expect(false).toBe(true);
+  if (failed.length > 0) {
+    console.log('❌ Failed regions:', failed.map(f => f.region));
   }
+
+  expect(failed.length).toBe(0);
 });

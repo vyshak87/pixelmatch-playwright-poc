@@ -1,0 +1,9 @@
+{
+  "name": "landing-hero-section",
+  "browser": "firefox",
+  "skipped": true,
+  "reason": "Element not visible or not found",
+  "threshold": 0.1,
+  "mismatches": 0,
+  "percent": 0
+}
